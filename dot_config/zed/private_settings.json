@@ -1,0 +1,126 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "markdown_preview_code_font_family": ".ZedSans",
+  "markdown_preview_font_family": ".ZedSans",
+  "agent_buffer_font_size": 16.0,
+  "agent_ui_font_size": 20.0,
+  "proxy": "",
+  "cli_default_open_behavior": "existing_window",
+  "terminal": {
+    "font_size": 18.0,
+    "font_family": "CaskaydiaCove Nerd Font Mono"
+  },
+  "agent": {
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-opus-4-7",
+      "enable_thinking": true,
+      "effort": "high",
+    },
+    "sidebar_side": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "disable_ai": false,
+  "pane_split_direction_vertical": "right",
+  "tabs": {
+    "close_position": "right",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "JetBrains New UI Icons (Dark)",
+    "dark": "Material Icon Theme",
+  },
+  "vim_mode": true,
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "ui_font_size": 20.0,
+  "buffer_font_size": 18.0,
+  "theme": "Gruvbox ish Dark Hard",
+  "experimental.theme_overrides": {
+    "background": "#000000FF",
+    "title_bar.inactive_background": "#000000FF",
+    "editor.background": "#000000FF",
+    "surface.background": "#000000FF",
+    "elevated_surface.background": "#000000FF",
+    "terminal.background": "#000000FF",
+    "status_bar.background": "#000000FF",
+    "title_bar.background": "#000000FF",
+    "toolbar.background": "#000000FF",
+    "tab_bar.background": "#000000FF",
+    "tab.active_background": "#000000FF",
+    "tab.inactive_background": "#000000FF",
+    "panel.background": "#000000FF",
+    "editor.gutter.background": "#000000FF",
+    "icon.muted": "#000000FF",
+    "border": "#000000FF",
+    "border.variant": "#000000FF",
+    "players": [{
+      "cursor": "#ebdbb2",
+      "background": "#D3540055",
+      "selection": "#D3540055"
+    }],
+    "element.selected": "#D3540033",
+    "element.active": "#D3540033",
+
+    // code diagnostic hover
+    "warning.background": "#d7992133",
+    "warning.border": "#fabd2f",
+    "warning": "#fabd2f",
+    "error.background": "#cc241d33",
+    "error.border": "#fb4934",
+    "error": "#fb4934",
+    "info": "#8ec07c",
+    "info.background": "#D3540055",
+    "info.border": "#D3540055",
+    "hint.background": "#D3540055",
+    "hint.border": "#fe8019",
+    "hint": "#fe8019"
+  },
+  "project_panel": {
+    "default_width": 260,
+    "hide_root": true,
+    "dock": "left",
+    "sticky_scroll": false,
+    "scrollbar": {
+      "show": "never",
+    },
+  },
+  "outline_panel": {
+    "dock": "right",
+    "default_width": 400,
+  },
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_branch_name": false,
+    "show_user_menu": false,
+  },
+  "tab_bar": {
+    "show": false,
+  },
+  "file_finder": {
+    "modal_max_width": "xlarge",
+  },
+  "scrollbar": {
+    "show": "never"
+  }
+}
